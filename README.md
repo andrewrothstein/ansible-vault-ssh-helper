@@ -1,7 +1,7 @@
 andrewrothstein.vault-ssh-helper
 =========
 
-Installs Hashicorp's vault-ssh-helper
+Installs Hashicorp's [vault-ssh-helper](https://github.com/hashicorp/vault-ssh-helper)
 
 Requirements
 ------------
