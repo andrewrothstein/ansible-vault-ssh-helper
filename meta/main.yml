@@ -9,19 +9,26 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
-        - 7
+        - all
     - name: Fedora
       versions:
-        - 23
+        - all
     - name: Ubuntu
       versions:
-        - trusty
-        - xenial
+        - all
+    - name: Alpine
+      version:
+        - all
   galaxy_tags:
-    - development
+    - secret
+    - key
+    - vault
+    - ssh
+    - hashicorp
 
 dependencies:
   - role: andrewrothstein.vault-app
-    version: v1.0.1
-    vault_app: vault-ssh-helper
-    vault_app_ver: '0.1.2'
+    version: v2.0.0
+    vault_app : vault-ssh-helper
+    vault_app_ver : '0.1.2'
+    vault_app_checksum: sha256:bfe5efd19ea5e0f6b45e60f9631620314a8cbe8e829c6fb3ba7ca6875dc6b37b
