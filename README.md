@@ -6,12 +6,12 @@ Installs Hashicorp's [vault-ssh-helper](https://github.com/hashicorp/vault-ssh-h
 Requirements
 ------------
 
-See [meta/main.yml]
+See [meta/main.yml](meta/main.yml)
 
 Role Variables
 --------------
 
-See [defaults/main.yml]
+See [defaults/main.yml](defaults/main.yml)
 
 Dependencies
 ------------
@@ -21,9 +21,11 @@ See [meta/main.yml]
 Example Playbook
 ----------------
 
-    - hosts: servers
-      roles:
-         - andrewrothstein.vault-ssh-helper
+```yml
+- hosts: servers
+  roles:
+    - andrewrothstein.vault-ssh-helper
+```
 
 License
 -------
@@ -33,4 +35,4 @@ MIT
 Author Information
 ------------------
 
-Andrew Rothstein andrew.rothstein@gmail.com
+Andrew Rothstein <andrew.rothstein@gmail.com>
