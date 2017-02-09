@@ -16,7 +16,7 @@ See [defaults/main.yml](defaults/main.yml)
 Dependencies
 ------------
 
-See [meta/main.yml]
+See [meta/main.yml](meta/main.yml)
 
 Example Playbook
 ----------------
