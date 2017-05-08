@@ -28,7 +28,7 @@ galaxy_info:
 
 dependencies:
   - role: andrewrothstein.vault-app
-    version: v3.0.0
+    version: v3.0.1
     vault_app : vault-ssh-helper
     vault_app_ver : '0.1.3'
     vault_app_checksums:

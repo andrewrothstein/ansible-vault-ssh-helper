@@ -1,5 +1,6 @@
 andrewrothstein.vault-ssh-helper
 =========
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-vault-ssh-helper.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-vault-ssh-helper)
 
 Installs Hashicorp's [vault-ssh-helper](https://github.com/hashicorp/vault-ssh-helper)
 
