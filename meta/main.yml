@@ -28,10 +28,11 @@ galaxy_info:
 
 dependencies:
   - role: andrewrothstein.vault-app
-    version: v3.0.3
+    version: v3.0.4
     vault_app : vault-ssh-helper
-    vault_app_ver : '0.1.3'
+    vault_app_ver : '0.1.4'
+    # https://releases.hashicorp.com/vault-ssh-helper/0.1.4/vault-ssh-helper_0.1.4_SHA256SUMS
     vault_app_checksums:
-      linux_386: sha256:42a8f5639bf5df18dc273b2ddf78cc07c6533c2b83b4dfc254d46ac167c89d81
-      linux_amd64: sha256:212eb6f98cfc28f201e4dc3106a1bfb82799eacb31e4b380e7c17a0457732cc0
-      linux_arm: sha256:8d7dbb7e0a23d52789cbd92916ea1cf7f0b4c855c77496580e80586a24d109eb
+      linux_386: sha256:c649f2c856a907474435469c4d73f584e2ad0437ce7f86fbfce461b29730e141
+      linux_amd64: sha256:156ce8250725e64a3e4dc51018a18813dd44d1f2a6c853976bc20e1625d631a1
+      linux_arm: sha256:c7d0ba0c580b4d42f9ca43a713e1b338d236888982d73f71554192f45ed10227
